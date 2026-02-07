@@ -2,6 +2,8 @@
 
 Niniejszy plik stanowi opis uruchomienia oraz opis wyników prac przeprowadzonych w ramach tworzenia pracy magisterskiej o powyższym tytule.
 
+Częścią prac było porównanie algorytmów detekcji i śledzenia na powszechnie dostępnym zbiorze danych. Kod służący do wykonania tego zadania został zamieszczony w repozytorium [camera-tracking](https://github.com/Max326/camera-tracking). Repozytorium zawiera skrypty do uruchamiania porównań oraz narzędzia pomocnicze do analizy i wizualizacji wyników.
+
 ## Uruchomienie projektu
 
 Opis ogólnej konfiguracji i uruchomienia projektu znajduje się w pliku `README.md` w głównym folderze repozytorium. Aby uruchomić projekt, należy przejść opisane w niej kroki. Została ona napisana przez innych członków Koła Naukowego Robotyków.
@@ -39,7 +41,7 @@ Uruchomienie misji (lot drona i podążanie za samochodem) odbywa się poprzez w
 
 Wyniki testów w symulacji zostały zebrane podczas uruchamiania symulacji. Poniżej przedstawiona została instrukcja uruchamiania skryptu zbierającego wyniki.
 
-W kolejnym terminalu, w `docker`ze, należy (z folderu /ros_ws) uruchomić komendę `ros2 run drone_autonomy benchmark_tracker --ros-args -p samples:=6000 -p name:=your_name`. Komenda umożliwia zdefiniowanie liczby próbek, przez które przeprowadzany będzie test oraz nazwę pliku, do którego zapisane będą wyniki.
+W kolejnym terminalu, w `docker`-ze, należy (z folderu `/ros_ws`) uruchomić komendę `ros2 run drone_autonomy benchmark_tracker --ros-args -p samples:=6000 -p name:=your_name`. Komenda umożliwia zdefiniowanie liczby próbek, przez które przeprowadzany będzie test oraz nazwę pliku (`your_name`), do którego zapisane będą wyniki.
 
 Pliki utworzone przez powyższy skrypt znajdują się w folderze `docker/plots`. Po zakończeniu zbierania wyników skrypt ten pokazuje podsumowanie z danego przebiegu. Podsumowania te zostały skopiowane i zapisane w plikach `testy-...` w folderze `docker/plots/summary-results`.
 
