@@ -31,7 +31,7 @@ Następnie, w symulatorze `Webots` (uruchomionym powyższą komendą) należy ot
 
 Uruchomienie symulatora należy wykonać poprzez otworzenie nowego terminala (poza `docker`em) i wywołanie komendy `./run_ardupilot_sitl.sh`. Uruchomi ona skrypt pozwalający na symulację lotu drona w systemie SITL ArduPilota.
 
-### 3. Uruchomienie misję
+### 3. Uruchomienie misji
 
 Po otrzymaniu od symulatora informacji o gotowości do uzbrojenia drona (`FC is ready` oraz `Copter connected, ready to arm`) można uruchomić misję.
 
