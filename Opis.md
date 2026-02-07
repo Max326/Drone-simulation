@@ -2,7 +2,7 @@
 
 Niniejszy plik stanowi opis uruchomienia oraz opis wyników prac przeprowadzonych w ramach tworzenia pracy magisterskiej o powyższym tytule.
 
-Częścią prac było porównanie algorytmów detekcji i śledzenia na powszechnie dostępnym zbiorze danych. Kod służący do wykonania tego zadania został zamieszczony w repozytorium [camera-tracking](https://github.com/Max326/camera-tracking). Repozytorium zawiera skrypty do uruchamiania porównań oraz narzędzia pomocnicze do analizy i wizualizacji wyników.
+Częścią prac było porównanie algorytmów detekcji i śledzenia na powszechnie dostępnym zbiorze danych. Kod służący do wykonania tego zadania został zamieszczony w repozytorium [camera-tracking](https://github.com/Max326/camera-tracking). Repozytorium zawiera skrypty do uruchamiania porównań, narzędzia pomocnicze do analizy i wizualizacji wyników oraz wyniki przeprowadzonych testów.
 
 ## Uruchomienie projektu
 
