@@ -129,7 +129,7 @@ def generate_launch_description():
         DeclareLaunchArgument(
             'tracker_type',
             default_value='KCF',
-            description='Tracker algorithm for hybrid mode: KCF, CSRT, MIL, MOSSE'
+            description='Tracker algorithm for hybrid mode: KCF, CSRT, MIL, MOSSE, BOOSTING, TLD, MEDIANFLOW' 
         ),
         # ---------------------------------
         webots,

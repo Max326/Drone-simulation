@@ -1,0 +1,776 @@
+Testy w ruchu:
+
+po hard resecie:
+
+q = 1.0, r = 0.1
+========================================
+ BENCHMARK REPORT: benchmarks/q_1.0_r_0.1_movement_20260126-213813.csv
+========================================
+ Samples:     3000
+ Duration:    79.3 s
+----------------------------------------
+ RMSE:        0.9180 m  <-- Root Mean Square Error
+ MAE:         0.8569 m   <-- Mean Absolute Error
+ Max Error:   1.9371 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/q1.0_r0.1_movement_20260127-113818.csv
+========================================
+ Samples:     3000
+ Duration:    94.4 s
+----------------------------------------
+ RMSE:        0.9437 m  <-- Root Mean Square Error
+ MAE:         0.8683 m   <-- Mean Absolute Error
+ Max Error:   4.4300 m
+========================================
+
+bez hard resetu:
+========================================
+ BENCHMARK REPORT: benchmarks/q_1.0_r_0.1_movement_v2_20260126-214115.csv
+========================================
+ Samples:     3000
+ Duration:    74.9 s
+----------------------------------------
+ RMSE:        1.0359 m  <-- Root Mean Square Error
+ MAE:         0.8856 m   <-- Mean Absolute Error
+ Max Error:   5.0046 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/q1.0_r0.1_movement_20260127-114040.csv
+========================================
+ Samples:     3000
+ Duration:    75.0 s
+----------------------------------------
+ RMSE:        0.9844 m  <-- Root Mean Square Error
+ MAE:         0.8537 m   <-- Mean Absolute Error
+ Max Error:   4.8386 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/q1.0_r0.1_movement_20260127-114431.csv
+========================================
+ Samples:     3000
+ Duration:    74.0 s
+----------------------------------------
+ RMSE:        0.9624 m  <-- Root Mean Square Error
+ MAE:         0.8750 m   <-- Mean Absolute Error
+ Max Error:   3.2336 m
+========================================
+
+
+q = 0.1, r = 1.0
+========================================
+ BENCHMARK REPORT: benchmarks/q_0.1_r_1.0_movement_20260126-214553.csv
+========================================
+ Samples:     3000
+ Duration:    90.9 s
+----------------------------------------
+ RMSE:        0.9936 m  <-- Root Mean Square Error
+ MAE:         0.9116 m   <-- Mean Absolute Error
+ Max Error:   2.7318 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/q0.1_r1.0_movement_20260127-114651.csv
+========================================
+ Samples:     3000
+ Duration:    79.0 s
+----------------------------------------
+ RMSE:        1.1073 m  <-- Root Mean Square Error
+ MAE:         0.9727 m   <-- Mean Absolute Error
+ Max Error:   3.6777 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/q0.1_r1.0_movement_20260127-114950.csv
+========================================
+ Samples:     3000
+ Duration:    75.6 s
+----------------------------------------
+ RMSE:        1.0355 m  <-- Root Mean Square Error
+ MAE:         0.8671 m   <-- Mean Absolute Error
+ Max Error:   3.5929 m
+========================================
+
+
+brak kalmana:
+
+========================================
+ BENCHMARK REPORT: benchmarks/none_movement_20260126-214940.csv
+========================================
+ Samples:     3000
+ Duration:    75.1 s
+----------------------------------------
+ RMSE:        0.9286 m  <-- Root Mean Square Error
+ MAE:         0.7533 m   <-- Mean Absolute Error
+ Max Error:   3.4432 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/none_movement_20260127-115303.csv
+========================================
+ Samples:     3000
+ Duration:    77.4 s
+----------------------------------------
+ RMSE:        0.8667 m  <-- Root Mean Square Error
+ MAE:         0.6394 m   <-- Mean Absolute Error
+ Max Error:   3.3633 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/none_movement_20260127-120047.csv
+========================================
+ Samples:     3000
+ Duration:    75.4 s
+----------------------------------------
+ RMSE:        0.9308 m  <-- Root Mean Square Error
+ MAE:         0.8127 m   <-- Mean Absolute Error
+ Max Error:   3.2197 m
+========================================
+
+q = 10.0, r=0.01
+
+========================================
+ BENCHMARK REPORT: benchmarks/q10.0_r0.01_movement_20260127-122547.csv
+========================================
+ Samples:     3000
+ Duration:    77.8 s
+----------------------------------------
+ RMSE:        0.9077 m  <-- Root Mean Square Error
+ MAE:         0.7752 m   <-- Mean Absolute Error
+ Max Error:   4.8815 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/q10.0_r0.01_movement_20260127-122755.csv
+========================================
+ Samples:     3000
+ Duration:    75.6 s
+----------------------------------------
+ RMSE:        0.8374 m  <-- Root Mean Square Error
+ MAE:         0.7628 m   <-- Mean Absolute Error
+ Max Error:   3.3705 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/q10.0_r0.01_movement_20260127-123002.csv
+========================================
+ Samples:     3000
+ Duration:    75.8 s
+----------------------------------------
+ RMSE:        0.9785 m  <-- Root Mean Square Error
+ MAE:         0.7642 m   <-- Mean Absolute Error
+ Max Error:   4.9678 m
+========================================
+
+q = 10.0, r = 0.1
+
+========================================
+ BENCHMARK REPORT: benchmarks/q10.0_r0.1_movement_20260127-123726.csv
+========================================
+ Samples:     3000
+ Duration:    75.9 s
+----------------------------------------
+ RMSE:        0.9300 m  <-- Root Mean Square Error
+ MAE:         0.8615 m   <-- Mean Absolute Error
+ Max Error:   2.5927 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/q10.0_r0.1_movement_20260127-123945.csv
+========================================
+ Samples:     3000
+ Duration:    77.3 s
+----------------------------------------
+ RMSE:        1.0003 m  <-- Root Mean Square Error
+ MAE:         0.8872 m   <-- Mean Absolute Error
+ Max Error:   3.2638 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/q10.0_r0.1_movement_20260127-124129.csv
+========================================
+ Samples:     3000
+ Duration:    74.4 s
+----------------------------------------
+ RMSE:        0.9605 m  <-- Root Mean Square Error
+ MAE:         0.8434 m   <-- Mean Absolute Error
+ Max Error:   4.8757 m
+========================================
+
+q = 1.0, r = 0.001
+
+========================================
+ BENCHMARK REPORT: benchmarks/q1.0_r0.01_movement_20260127-124856.csv
+========================================
+ Samples:     3000
+ Duration:    119.7 s
+----------------------------------------
+ RMSE:        0.9326 m  <-- Root Mean Square Error
+ MAE:         0.8200 m   <-- Mean Absolute Error
+ Max Error:   6.9634 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/q1.0_r0.01_movement_20260127-125125.csv
+========================================
+ Samples:     3000
+ Duration:    74.9 s
+----------------------------------------
+ RMSE:        0.9341 m  <-- Root Mean Square Error
+ MAE:         0.8579 m   <-- Mean Absolute Error
+ Max Error:   4.8522 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/q1.0_r0.01_movement_20260127-125759.csv
+========================================
+ Samples:     3000
+ Duration:    68.7 s
+----------------------------------------
+ RMSE:        1.0346 m  <-- Root Mean Square Error
+ MAE:         0.8821 m   <-- Mean Absolute Error
+ Max Error:   4.9116 m
+========================================
+
+this but in 100hz:
+
+========================================
+ BENCHMARK REPORT: benchmarks/q1.0_r0.001truly_movement_100hz_20260127-131444.csv
+========================================
+ Samples:     3000
+ Duration:    46.7 s
+----------------------------------------
+ RMSE:        1.1068 m  <-- Root Mean Square Error
+ MAE:         0.8861 m   <-- Mean Absolute Error
+ Max Error:   3.3214 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/q1.0_r0.001truly_movement_100hz_20260127-131626.csv
+========================================
+ Samples:     6000 <- adjusted for same duration
+ Duration:    77.0 s
+----------------------------------------
+ RMSE:        0.9484 m  <-- Root Mean Square Error
+ MAE:         0.8628 m   <-- Mean Absolute Error
+ Max Error:   2.8742 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/q1.0_r0.001truly_movement_100hz_20260127-131819.csv
+========================================
+ Samples:     6000
+ Duration:    75.3 s
+----------------------------------------
+ RMSE:        1.0003 m  <-- Root Mean Square Error
+ MAE:         0.8489 m   <-- Mean Absolute Error
+ Max Error:   3.7001 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/q1.0_r0.001truly_movement_100hz_20260127-132056.csv
+========================================
+ Samples:     6000
+ Duration:    80.5 s
+----------------------------------------
+ RMSE:        0.9273 m  <-- Root Mean Square Error
+ MAE:         0.8119 m   <-- Mean Absolute Error
+ Max Error:   3.1148 m
+========================================
+
+
+NO KALMAN, but 100hz loop
+
+========================================
+ BENCHMARK REPORT: benchmarks/none_movement_100hz_20260127-133222.csv
+========================================
+ Samples:     6000
+ Duration:    67.9 s
+----------------------------------------
+ RMSE:        0.8515 m  <-- Root Mean Square Error
+ MAE:         0.7647 m   <-- Mean Absolute Error
+ Max Error:   2.5626 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/none_movement_100hz_20260127-133431.csv
+========================================
+ Samples:     6000
+ Duration:    68.0 s
+----------------------------------------
+ RMSE:        0.8658 m  <-- Root Mean Square Error
+ MAE:         0.7712 m   <-- Mean Absolute Error
+ Max Error:   2.6381 m
+========================================
+
+
+========================================
+ BENCHMARK REPORT: benchmarks/none_movement_100hz_20260127-133607.csv
+========================================
+ Samples:     6000
+ Duration:    78.2 s
+----------------------------------------
+ RMSE:        0.9781 m  <-- Root Mean Square Error
+ MAE:         0.8593 m   <-- Mean Absolute Error
+ Max Error:   3.2403 m
+========================================
+
+znowu 50hz, ale zmieniony model Q: Q=10, R=0.01
+
+========================================
+ BENCHMARK REPORT: benchmarks/newQ_q10.0_r0.01_movement_20260127-135055.csv
+========================================
+ Samples:     6000 <- zapomnialem zmniejszyc
+ Duration:    133.9 s
+----------------------------------------
+ RMSE:        0.9723 m  <-- Root Mean Square Error
+ MAE:         0.9055 m   <-- Mean Absolute Error
+ Max Error:   2.8117 m
+========================================
+
+nowe Q: Q=10, R=0.01
+
+========================================
+ BENCHMARK REPORT: benchmarks/newQ_q10.0_r0.01_movement_20260127-135341.csv
+========================================
+ Samples:     3000
+ Duration:    76.1 s
+----------------------------------------
+ RMSE:        1.1179 m  <-- Root Mean Square Error
+ MAE:         0.9749 m   <-- Mean Absolute Error
+ Max Error:   3.6655 m
+========================================
+
+nowe Q -> Q=100.0, R = 0.01
+
+========================================
+ BENCHMARK REPORT: benchmarks/newQ_q100.0_r0.01_movement_20260127-135646.csv
+========================================
+ Samples:     3000
+ Duration:    75.6 s
+----------------------------------------
+ RMSE:        0.9913 m  <-- Root Mean Square Error
+ MAE:         0.8746 m   <-- Mean Absolute Error
+ Max Error:   4.9642 m
+========================================
+
+Kalman uwzględniający ruch drona:
+
+Q = 1.0, R = 0.1
+========================================
+ BENCHMARK REPORT: benchmarks/smort_kf_q1.0_r0.1_20260127-192316.csv
+========================================
+ Samples:     3000
+ Duration:    73.7 s
+----------------------------------------
+ RMSE:        0.9989 m  <-- Root Mean Square Error
+ MAE:         0.8477 m   <-- Mean Absolute Error
+ Max Error:   3.3865 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/smort_kf_q1.0_r0.1_20260127-193438.csv
+========================================
+ Samples:     3000
+ Duration:    74.9 s
+----------------------------------------
+ RMSE:        0.9389 m  <-- Root Mean Square Error
+ MAE:         0.8607 m   <-- Mean Absolute Error
+ Max Error:   2.5029 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/smort_kf_q1.0_r0.1_20260127-193813.csv
+========================================
+ Samples:     3000
+ Duration:    74.6 s
+----------------------------------------
+ RMSE:        0.9055 m  <-- Root Mean Square Error
+ MAE:         0.8244 m   <-- Mean Absolute Error
+ Max Error:   2.5784 m
+========================================
+
+Q = 0.1, R = 1.0
+
+========================================
+ BENCHMARK REPORT: benchmarks/smort_kf_q0.1_r1.0_20260127-194130.csv
+========================================
+ Samples:     3000
+ Duration:    75.1 s
+----------------------------------------
+ RMSE:        1.0268 m  <-- Root Mean Square Error
+ MAE:         0.8982 m   <-- Mean Absolute Error
+ Max Error:   4.8068 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/smort_kf_q0.1_r1.0_20260127-194835.csv
+========================================
+ Samples:     3000
+ Duration:    77.9 s
+----------------------------------------
+ RMSE:        0.9228 m  <-- Root Mean Square Error
+ MAE:         0.8336 m   <-- Mean Absolute Error
+ Max Error:   2.6071 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/smort_kf_q0.1_r1.0_20260127-195039.csv
+========================================
+ Samples:     3000
+ Duration:    75.5 s
+----------------------------------------
+ RMSE:        0.9096 m  <-- Root Mean Square Error
+ MAE:         0.8259 m   <-- Mean Absolute Error
+ Max Error:   2.5032 m
+========================================
+
+Q = 10.0, R = 0.01
+
+========================================
+ BENCHMARK REPORT: benchmarks/smort_kf_q10.0_r0.01_20260127-195520.csv
+========================================
+ Samples:     3000
+ Duration:    74.2 s
+----------------------------------------
+ RMSE:        0.9250 m  <-- Root Mean Square Error
+ MAE:         0.8458 m   <-- Mean Absolute Error
+ Max Error:   2.5166 m
+========================================
+
+
+========================================
+ BENCHMARK REPORT: benchmarks/smort_kf_q10.0_r0.01_20260127-195710.csv
+========================================
+ Samples:     3000
+ Duration:    77.1 s
+----------------------------------------
+ RMSE:        1.0529 m  <-- Root Mean Square Error
+ MAE:         0.8818 m   <-- Mean Absolute Error
+ Max Error:   3.7809 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/smort_kf_q10.0_r0.01_20260127-195904.csv
+========================================
+ Samples:     3000
+ Duration:    77.2 s
+----------------------------------------
+ RMSE:        0.8689 m  <-- Root Mean Square Error
+ MAE:         0.8038 m   <-- Mean Absolute Error
+ Max Error:   2.2703 m
+========================================
+
+Q = 10.0, R = 0.1
+
+========================================
+ BENCHMARK REPORT: benchmarks/smort_kf_q10.0_r0.1_20260127-211158.csv
+========================================
+ Samples:     3000
+ Duration:    74.2 s
+----------------------------------------
+ RMSE:        0.9168 m  <-- Root Mean Square Error
+ MAE:         0.8416 m   <-- Mean Absolute Error
+ Max Error:   5.0219 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/smort_kf_q10.0_r0.1_20260127-211748.csv
+========================================
+ Samples:     3000
+ Duration:    75.2 s
+----------------------------------------
+ RMSE:        0.9624 m  <-- Root Mean Square Error
+ MAE:         0.8680 m   <-- Mean Absolute Error
+ Max Error:   2.9130 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/smort_kf_q10.0_r0.1_20260127-212021.csv
+========================================
+ Samples:     3000
+ Duration:    73.7 s
+----------------------------------------
+ RMSE:        0.9998 m  <-- Root Mean Square Error
+ MAE:         0.8349 m   <-- Mean Absolute Error
+ Max Error:   4.9067 m
+========================================
+
+
+OCCLUSIONS - bus, drone stationary, only yaw:
+
+========================================
+ BENCHMARK REPORT: benchmarks/occlusions_kf_q1.0_r0.1_20260127-220425.csv
+========================================
+ Samples:     3000
+ Duration:    74.7 s
+----------------------------------------
+ RMSE:        11.4882 m  <-- Root Mean Square Error
+ MAE:         5.6535 m   <-- Mean Absolute Error
+ Max Error:   59.0699 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/occlusions_kf_q1.0_r0.1_20260127-220636.csv
+========================================
+ Samples:     3000
+ Duration:    74.3 s
+----------------------------------------
+ RMSE:        5.0202 m  <-- Root Mean Square Error
+ MAE:         3.2725 m   <-- Mean Absolute Error
+ Max Error:   21.3106 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/occlusions_kf_q1.0_r0.1_20260127-221933.csv
+========================================
+ Samples:     3000
+ Duration:    73.6 s
+----------------------------------------
+ RMSE:        10.1927 m  <-- Root Mean Square Error
+ MAE:         6.2559 m   <-- Mean Absolute Error
+ Max Error:   27.8158 m
+========================================
+
+q = 0.1, r = 1.0
+========================================
+ BENCHMARK REPORT: benchmarks/occlusions_kf_q0.1_r1.0_20260127-223309.csv
+========================================
+ Samples:     3000
+ Duration:    75.5 s
+----------------------------------------
+ RMSE:        16.7996 m  <-- Root Mean Square Error
+ MAE:         11.1953 m   <-- Mean Absolute Error
+ Max Error:   38.2910 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/occlusions_kf_q0.1_r1.0_20260127-223541.csv
+========================================
+ Samples:     3000
+ Duration:    75.0 s
+----------------------------------------
+ RMSE:        17.7801 m  <-- Root Mean Square Error
+ MAE:         12.3052 m   <-- Mean Absolute Error
+ Max Error:   41.2180 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/occlusions_kf_q0.1_r1.0_20260127-224307.csv
+========================================
+ Samples:     3000
+ Duration:    75.3 s
+----------------------------------------
+ RMSE:        10.2078 m  <-- Root Mean Square Error
+ MAE:         6.4621 m   <-- Mean Absolute Error
+ Max Error:   26.1862 m
+========================================
+
+q = 0.01 r = 1.0
+
+========================================
+ BENCHMARK REPORT: benchmarks/occlusions_kf_q0.01_r1.0_20260127-224527.csv
+========================================
+ Samples:     3000
+ Duration:    75.6 s
+----------------------------------------
+ RMSE:        20.2411 m  <-- Root Mean Square Error
+ MAE:         13.8856 m   <-- Mean Absolute Error
+ Max Error:   42.0142 m
+========================================
+
+^ fuck it
+
+========================================
+ BENCHMARK REPORT: benchmarks/occlusions_kf_q10.0_r0.1_20260127-224831.csv
+========================================
+ Samples:     3000
+ Duration:    75.3 s
+----------------------------------------
+ RMSE:        20.7162 m  <-- Root Mean Square Error
+ MAE:         14.3559 m   <-- Mean Absolute Error
+ Max Error:   42.0702 m
+========================================
+
+looks like pure luck
+========================================
+ BENCHMARK REPORT: benchmarks/occlusions_kf_q0.1_r0.1_20260127-225321.csv
+========================================
+ Samples:     3000
+ Duration:    74.7 s
+----------------------------------------
+ RMSE:        12.9221 m  <-- Root Mean Square Error
+ MAE:         7.8396 m   <-- Mean Absolute Error
+ Max Error:   34.8611 m
+========================================
+
+przestawiony silos (x 13, y -8), tesla też (x 2.0, y -8), samochod (vx 5.0, omega 0.2)
+
+========================================
+ BENCHMARK REPORT: benchmarks/silo_kcf_q1.0_r0.1_20260128-173058.csv
+========================================
+ Samples:     5000
+ Duration:    114.0 s
+----------------------------------------
+ RMSE:        5.5396 m  <-- Root Mean Square Error
+ MAE:         4.6215 m   <-- Mean Absolute Error
+ Max Error:   12.9579 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/silo_kcf_q1.0_r0.1_20260128-174554.csv
+========================================
+ Samples:     5000
+ Duration:    113.6 s
+----------------------------------------
+ RMSE:        6.8664 m  <-- Root Mean Square Error
+ MAE:         5.3344 m   <-- Mean Absolute Error
+ Max Error:   19.4512 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/silo_kcf_q1.0_r0.1_20260128-175245.csv
+========================================
+ Samples:     5000
+ Duration:    114.4 s
+----------------------------------------
+ RMSE:        10.0677 m  <-- Root Mean Square Error
+ MAE:         6.6836 m   <-- Mean Absolute Error
+ Max Error:   34.7853 m
+========================================
+
+q = 0.1 r = 1.0
+
+========================================
+ BENCHMARK REPORT: benchmarks/silo_kcf_q0.1_r1.0_20260128-175916.csv
+========================================
+ Samples:     5000
+ Duration:    113.6 s
+----------------------------------------
+ RMSE:        5.1255 m  <-- Root Mean Square Error
+ MAE:         4.3613 m   <-- Mean Absolute Error
+ Max Error:   10.3047 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/silo_kcf_q0.1_r1.0_20260128-180627.csv
+========================================
+ Samples:     5000
+ Duration:    108.9 s
+----------------------------------------
+ RMSE:        9.7463 m  <-- Root Mean Square Error
+ MAE:         6.7391 m   <-- Mean Absolute Error
+ Max Error:   30.1863 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/silo_kcf_q0.1_r1.0_20260128-180909.csv
+========================================
+ Samples:     5000
+ Duration:    109.1 s
+----------------------------------------
+ RMSE:        5.7990 m  <-- Root Mean Square Error
+ MAE:         4.8234 m   <-- Mean Absolute Error
+ Max Error:   18.3567 m
+========================================
+
+no kalman:
+
+========================================
+ BENCHMARK REPORT: benchmarks/silo_kcf_none_20260128-182041.csv
+========================================
+ Samples:     5000
+ Duration:    114.5 s
+----------------------------------------
+ RMSE:        8.5860 m  <-- Root Mean Square Error
+ MAE:         6.1115 m   <-- Mean Absolute Error
+ Max Error:   21.8486 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/silo_kcf_none_20260128-182823.csv
+========================================
+ Samples:     5000
+ Duration:    109.7 s
+----------------------------------------
+ RMSE:        8.4716 m  <-- Root Mean Square Error
+ MAE:         6.1731 m   <-- Mean Absolute Error
+ Max Error:   21.0497 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/silo_kcf_none_20260128-183129.csv
+========================================
+ Samples:     5000
+ Duration:    109.4 s
+----------------------------------------
+ RMSE:        11.1255 m  <-- Root Mean Square Error
+ MAE:         7.5471 m   <-- Mean Absolute Error
+ Max Error:   33.9692 m
+========================================
+
+q = 0.01 r = 1.0
+
+========================================
+ BENCHMARK REPORT: benchmarks/silo_kcf_q0.01_r1.0_20260128-184631.csv
+========================================
+ Samples:     5000
+ Duration:    114.5 s
+----------------------------------------
+ RMSE:        10.2903 m  <-- Root Mean Square Error
+ MAE:         6.8177 m   <-- Mean Absolute Error
+ Max Error:   30.6992 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/silo_kcf_q0.01_r1.0_20260128-184919.csv
+========================================
+ Samples:     5000
+ Duration:    114.5 s
+----------------------------------------
+ RMSE:        5.1017 m  <-- Root Mean Square Error
+ MAE:         4.3686 m   <-- Mean Absolute Error
+ Max Error:   10.1398 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/silo_kcf_q0.01_r1.0_20260128-185149.csv
+========================================
+ Samples:     5000
+ Duration:    114.2 s
+----------------------------------------
+ RMSE:        5.2685 m  <-- Root Mean Square Error
+ MAE:         4.3751 m   <-- Mean Absolute Error
+ Max Error:   19.3483 m
+========================================
+
+
+tight - 5.0, 0.25 car
+
+========================================
+ BENCHMARK REPORT: benchmarks/tight_silo_kf_q0.01_r1.0_20260129-155832.csv
+========================================
+ Samples:     5000
+ Duration:    117.1 s
+----------------------------------------
+ RMSE:        12.1785 m  <-- Root Mean Square Error
+ MAE:         7.9139 m   <-- Mean Absolute Error
+ Max Error:   43.5387 m
+========================================
+
+
+========================================
+ BENCHMARK REPORT: benchmarks/tight_silo_kf_q0.1_r1.0_20260129-160302.csv
+========================================
+ Samples:     5000
+ Duration:    396.4 s
+----------------------------------------
+ RMSE:        11.1213 m  <-- Root Mean Square Error
+ MAE:         7.1147 m   <-- Mean Absolute Error
+ Max Error:   36.6153 m
+========================================
+
+

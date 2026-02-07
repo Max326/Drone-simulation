@@ -45,4 +45,4 @@ saved_video/
 *.jpg
 *.png
 
-docker/plots/
+# docker/plots/

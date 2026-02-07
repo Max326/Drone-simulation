@@ -1,0 +1,337 @@
+EKF -- pętla 5.0, 00 przez 4s i potem skret 5.0, 0.6
+wszędzie użyty KCF wydaje mi się
+
+4m wys
+
+========================================
+ BENCHMARK REPORT: benchmarks/EKF_q0.1_r0.5_20260129-173335.csv
+========================================
+ Samples:     3000
+ Duration:    73.5 s
+----------------------------------------
+ RMSE:        8.4603 m  <-- Root Mean Square Error
+ MAE:         7.7536 m   <-- Mean Absolute Error
+ Max Error:   14.9265 m
+========================================
+
+koło - 5.0, 0.25
+========================================
+ BENCHMARK REPORT: benchmarks/circle_EKF_q0.1_r0.5_20260129-174156.csv
+========================================
+ Samples:     3000
+ Duration:    77.0 s
+----------------------------------------
+ RMSE:        3.6936 m  <-- Root Mean Square Error
+ MAE:         3.2375 m   <-- Mean Absolute Error
+ Max Error:   7.4619 m
+========================================
+
+kolo - 6.0, 0.2, silos
+========================================
+ BENCHMARK REPORT: benchmarks/big_circle_and_silo_EKF_q0.1_r0.5_20260129-175748.csv
+========================================
+ Samples:     3000
+ Duration:    64.7 s
+----------------------------------------
+ RMSE:        14.6481 m  <-- Root Mean Square Error
+ MAE:         9.2407 m   <-- Mean Absolute Error
+ Max Error:   51.6474 m
+========================================
+
+
+podążający, okrąg 4.0, 0.25
+4m wysokości, użyty KCF + yolov8n
+
+========================================
+ BENCHMARK REPORT: benchmarks/following_EKF_q0.1_r0.5_20260129-184609.csv
+========================================
+ Samples:     3000
+ Duration:    73.7 s
+----------------------------------------
+ RMSE:        0.9376 m  <-- Root Mean Square Error
+ MAE:         0.8580 m   <-- Mean Absolute Error
+ Max Error:   2.2214 m
+========================================
+
+holy shit: q = 10.0, r = 0.1
+========================================
+ BENCHMARK REPORT: benchmarks/following_EKF_q10.0_r0.1_20260129-185103.csv
+========================================
+ Samples:     3000
+ Duration:    74.2 s
+----------------------------------------
+ RMSE:        0.8433 m  <-- Root Mean Square Error
+ MAE:         0.7888 m   <-- Mean Absolute Error
+ Max Error:   1.9688 m
+========================================
+
+
+========================================
+ BENCHMARK REPORT: benchmarks/following_EKF_q10.0_r0.1_20260129-185821.csv
+========================================
+ Samples:     3000
+ Duration:    75.7 s
+----------------------------------------
+ RMSE:        0.8921 m  <-- Root Mean Square Error
+ MAE:         0.8349 m   <-- Mean Absolute Error
+ Max Error:   2.3087 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/following_EKF_q10.0_r0.1_20260129-190039.csv
+========================================
+ Samples:     3000
+ Duration:    73.5 s
+----------------------------------------
+ RMSE:        0.8288 m  <-- Root Mean Square Error
+ MAE:         0.7707 m   <-- Mean Absolute Error
+ Max Error:   2.2088 m
+========================================
+
+q = 10.0, r = 0.01
+========================================
+ BENCHMARK REPORT: benchmarks/following_EKF_q10.0_r0.01_20260129-185406.csv
+========================================
+ Samples:     3000
+ Duration:    74.2 s
+----------------------------------------
+ RMSE:        0.9517 m  <-- Root Mean Square Error
+ MAE:         0.8620 m   <-- Mean Absolute Error
+ Max Error:   2.4050 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/following_EKF_q10.0_r0.01_20260129-185555.csv
+========================================
+ Samples:     3000
+ Duration:    73.1 s
+----------------------------------------
+ RMSE:        0.8707 m  <-- Root Mean Square Error
+ MAE:         0.8156 m   <-- Mean Absolute Error
+ Max Error:   2.2708 m
+========================================
+
+q = 1.0, r = 0.1
+========================================
+ BENCHMARK REPORT: benchmarks/following_EKF_q1.0_r0.1_20260129-191054.csv
+========================================
+ Samples:     3000
+ Duration:    80.4 s
+----------------------------------------
+ RMSE:        0.8167 m  <-- Root Mean Square Error
+ MAE:         0.7648 m   <-- Mean Absolute Error
+ Max Error:   1.7905 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/following_EKF_q1.0_r0.1_20260129-191305.csv
+========================================
+ Samples:     3000
+ Duration:    73.4 s
+----------------------------------------
+ RMSE:        0.8720 m  <-- Root Mean Square Error
+ MAE:         0.8049 m   <-- Mean Absolute Error
+ Max Error:   2.3603 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/following_EKF_q1.0_r0.1_20260129-191511.csv
+========================================
+ Samples:     3000
+ Duration:    77.3 s
+----------------------------------------
+ RMSE:        0.8651 m  <-- Root Mean Square Error
+ MAE:         0.7997 m   <-- Mean Absolute Error
+ Max Error:   2.2394 m
+========================================
+
+q = 0.1, r = 1.0
+
+========================================
+ BENCHMARK REPORT: benchmarks/following_EKF_q0.1_r1.0_20260129-191908.csv
+========================================
+ Samples:     3000
+ Duration:    65.0 s
+----------------------------------------
+ RMSE:        0.9492 m  <-- Root Mean Square Error
+ MAE:         0.8679 m   <-- Mean Absolute Error
+ Max Error:   2.7229 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/following_EKF_q0.1_r1.0_20260129-192125.csv
+========================================
+ Samples:     3000
+ Duration:    73.5 s
+----------------------------------------
+ RMSE:        0.9807 m  <-- Root Mean Square Error
+ MAE:         0.8340 m   <-- Mean Absolute Error
+ Max Error:   2.7528 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/following_EKF_q0.1_r1.0_20260129-192308.csv
+========================================
+ Samples:     3000
+ Duration:    75.5 s
+----------------------------------------
+ RMSE:        0.9132 m  <-- Root Mean Square Error
+ MAE:         0.8434 m   <-- Mean Absolute Error
+ Max Error:   2.4063 m
+========================================
+
+Q = 1.0, r = 0.01
+
+========================================
+ BENCHMARK REPORT: benchmarks/following_EKF_q1.0_r0.01_20260129-192722.csv
+========================================
+ Samples:     3000
+ Duration:    74.2 s
+----------------------------------------
+ RMSE:        0.7640 m  <-- Root Mean Square Error
+ MAE:         0.6985 m   <-- Mean Absolute Error
+ Max Error:   2.9988 m
+========================================
+
+
+
+========================================
+ BENCHMARK REPORT: benchmarks/following_EKF_q1.0_r0.01_20260129-193156.csv
+========================================
+ Samples:     3000
+ Duration:    66.0 s
+----------------------------------------
+ RMSE:        0.8473 m  <-- Root Mean Square Error
+ MAE:         0.8053 m   <-- Mean Absolute Error
+ Max Error:   1.9852 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/following_EKF_q1.0_r0.01_20260129-193329.csv
+========================================
+ Samples:     3000
+ Duration:    77.5 s
+----------------------------------------
+ RMSE:        0.8377 m  <-- Root Mean Square Error
+ MAE:         0.7172 m   <-- Mean Absolute Error
+ Max Error:   2.5245 m
+========================================
+
+nwm czy tutaj fair, poczatek byl dziwny jakis
+========================================
+ BENCHMARK REPORT: benchmarks/following_EKF_q1.0_r0.01_20260129-193004.csv
+========================================
+ Samples:     3000
+ Duration:    66.1 s
+----------------------------------------
+ RMSE:        0.9252 m  <-- Root Mean Square Error
+ MAE:         0.8581 m   <-- Mean Absolute Error
+ Max Error:   2.6820 m
+========================================
+
+q = 1.0, r = 0.001
+
+========================================
+ BENCHMARK REPORT: benchmarks/following_EKF_q1.0_r0.001_20260129-200415.csv
+========================================
+ Samples:     3000
+ Duration:    73.4 s
+----------------------------------------
+ RMSE:        0.8322 m  <-- Root Mean Square Error
+ MAE:         0.7875 m   <-- Mean Absolute Error
+ Max Error:   1.7133 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/following_EKF_q1.0_r0.001_20260129-200557.csv
+========================================
+ Samples:     3000
+ Duration:    73.9 s
+----------------------------------------
+ RMSE:        0.8430 m  <-- Root Mean Square Error
+ MAE:         0.7868 m   <-- Mean Absolute Error
+ Max Error:   2.0995 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/following_EKF_q1.0_r0.001_20260129-200746.csv
+========================================
+ Samples:     3000
+ Duration:    73.7 s
+----------------------------------------
+ RMSE:        0.8556 m  <-- Root Mean Square Error
+ MAE:         0.8091 m   <-- Mean Absolute Error
+ Max Error:   1.9098 m
+========================================
+
+
+Q = 0.1 , r = 0.1
+========================================
+ BENCHMARK REPORT: benchmarks/following_EKF_q0.1_r0.1_20260129-202823.csv
+========================================
+ Samples:     3000
+ Duration:    74.1 s
+----------------------------------------
+ RMSE:        0.8241 m  <-- Root Mean Square Error
+ MAE:         0.7745 m   <-- Mean Absolute Error
+ Max Error:   1.8418 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/following_EKF_q0.1_r0.1_20260129-203015.csv
+========================================
+ Samples:     3000
+ Duration:    77.5 s
+----------------------------------------
+ RMSE:        0.8769 m  <-- Root Mean Square Error
+ MAE:         0.8329 m   <-- Mean Absolute Error
+ Max Error:   1.8654 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/following_EKF_q0.1_r0.1_20260129-203225.csv
+========================================
+ Samples:     3000
+ Duration:    73.3 s
+----------------------------------------
+ RMSE:        1.0079 m  <-- Root Mean Square Error
+ MAE:         0.9060 m   <-- Mean Absolute Error
+ Max Error:   2.4750 m
+========================================
+
+
+_________________________________________________ nigdy nie było
+bez filtra żadnego, te same warunki pracy
+
+========================================
+ BENCHMARK REPORT: benchmarks/following_none_q1.0_r0.01_20260129-194820.csv
+========================================
+ Samples:     3000
+ Duration:    73.6 s
+----------------------------------------
+ RMSE:        0.9290 m  <-- Root Mean Square Error
+ MAE:         0.8569 m   <-- Mean Absolute Error
+ Max Error:   2.1566 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/following_none_20260129-195008.csv
+========================================
+ Samples:     3000
+ Duration:    73.5 s
+----------------------------------------
+ RMSE:        0.8775 m  <-- Root Mean Square Error
+ MAE:         0.8240 m   <-- Mean Absolute Error
+ Max Error:   2.3618 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/following_none_20260129-195150.csv
+========================================
+ Samples:     3000
+ Duration:    73.8 s
+----------------------------------------
+ RMSE:        0.8187 m  <-- Root Mean Square Error
+ MAE:         0.7619 m   <-- Mean Absolute Error
+ Max Error:   1.7936 m
+========================================

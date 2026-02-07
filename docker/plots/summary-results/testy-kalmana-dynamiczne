@@ -1,0 +1,57 @@
+testy-kalmana-dynamiczna-jazda
+
+``` python
+while rclpy.ok():
+            speed = 5.0
+            # for speed in [2.0, 4.0, 6.0]:
+            while True:
+                # Move Forward
+                mission.send_car_command(speed, 0.0)
+                t_end = time.time() + 4.0
+                while rclpy.ok() and time.time() < t_end:
+                    rclpy.spin_once(mission, timeout_sec=0.05)
+
+                # Stop
+                mission.send_car_command(speed, 0.6)
+                t_end = time.time() + 4.0
+                while rclpy.ok() and time.time() < t_end:
+                    rclpy.spin_once(mission, timeout_sec=0.05)
+```
+
+KCF, 4m wysokości
+
+
+========================================
+ BENCHMARK REPORT: benchmarks/losing_EKF_q1.0_r0.01_20260129-204225.csv
+========================================
+ Samples:     3000
+ Duration:    75.3 s
+----------------------------------------
+ RMSE:        9.8976 m  <-- Root Mean Square Error
+ MAE:         8.8767 m   <-- Mean Absolute Error
+ Max Error:   33.7424 m
+========================================
+
+
+Kalman zwykły (uwzgledniajacy predkosc drona), te same parametry
+========================================
+ BENCHMARK REPORT: benchmarks/losing_KF_q1.0_r0.01_20260129-204601.csv
+========================================
+ Samples:     1136
+ Duration:    40.3 s
+----------------------------------------
+ RMSE:        25.3021 m  <-- Root Mean Square Error
+ MAE:         19.5774 m   <-- Mean Absolute Error
+ Max Error:   40.9927 m
+========================================
+
+========================================
+ BENCHMARK REPORT: benchmarks/losing_no_filtering_20260129-204742.csv
+========================================
+ Samples:     1133
+ Duration:    39.0 s
+----------------------------------------
+ RMSE:        31.7565 m  <-- Root Mean Square Error
+ MAE:         24.8135 m   <-- Mean Absolute Error
+ Max Error:   50.2506 m
+========================================
